@@ -1,0 +1,27 @@
+/* styles.css */
+[data-testid="stAppViewContainer"]  {
+    background-color: rgba(204, 134, 230, 0.707);
+}
+
+div.stButton > button {
+    background-color: rgb(64, 0, 128);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+div.stButton > button:hover{
+    background-color: white;
+    color: purple;
+}
+
+div.stMarkdown > h1 {
+    color: purple;
+}
